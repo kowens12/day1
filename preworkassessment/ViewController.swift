@@ -20,6 +20,20 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    var inch = 1
+    var centimeter = 2.54
+    
+    @IBOutlet weak var number[int]:  UITextField!
+    
+    @IBAction func cmToIn(sender: UISegmentedControl) {
+        func convertToIn = (2.54 / number) -> conversion
+    }
+    
+    @IBAction func intoCM(sender: UISegmentedControl) {
+        
+            func inToCm = (number * 2.54) -> conversion
+        println (conversion) }
 
+    }
 }
 
